@@ -39,7 +39,6 @@ for r, d, f in os.walk(dir, topdown=True):
 
         except OSError:
 
-            print 'File does not exist.'
             continue
 
     for name in d:      #Retrieve directory name from list of directories
@@ -52,5 +51,4 @@ for r, d, f in os.walk(dir, topdown=True):
 
         except OSError:
 
-            print 'Directory does not exist.'
             continue
